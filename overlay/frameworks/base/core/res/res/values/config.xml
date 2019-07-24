@@ -267,4 +267,7 @@
         <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
         <item>GPS_LOCK=0</item>
     </string-array>
+
+    <!-- Flag specifying whether VoLTE is available on device -->
+    <bool name="config_device_volte_available">true</bool>
 </resources>
