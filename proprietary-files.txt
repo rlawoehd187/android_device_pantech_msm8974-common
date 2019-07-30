@@ -7,7 +7,6 @@ bin/adsprpcd:vendor/bin/adsprpcd
 bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 bin/irsc_util:vendor/bin/irsc_util
-bin/mpdecision:vendor/bin/mpdecision
 bin/netmgrd:vendor/bin/netmgrd
 bin/qmuxd:vendor/bin/qmuxd
 bin/qseecomd:vendor/bin/qseecomd
