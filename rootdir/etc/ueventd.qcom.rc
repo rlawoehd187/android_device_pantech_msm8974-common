@@ -141,6 +141,7 @@
 /dev/msm_fm               0660   system     audio
 /dev/msm_mp3*             0660   system     audio
 /dev/msm_mvs              0660   system     audio
+/dev/lightsensor          0640   system     system
 /dev/msm_pcm_lp_dec       0660   system     audio
 /dev/msm_preproc_ctl      0660   system     audio
 /dev/msm_rtac             0660   system     audio
@@ -197,7 +198,10 @@
 /dev/wcnss_ctrl           0660   system     system
 
 # nfc permissions
+/dev/pn54*                0660   nfc        nfc
+/dev/pn544                0660   nfc        nfc
 /dev/pn547                0660   nfc        nfc
+/dev/nfc-nci              0660    nfc         nfc
 
 # UIO devices
 /dev/uio0                 0660   system     system
