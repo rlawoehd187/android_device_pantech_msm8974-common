@@ -1,4 +1,0 @@
-allow bluetooth_loader bluetooth_data_file:file { read open };
-allow bluetooth_loader servicemanager:binder call;
-allow bluetooth_loader system_file:file execute_no_trans;
-allow bluetooth_loader self:capability { dac_override dac_read_search };

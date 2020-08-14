@@ -1,3 +1,2 @@
 allow vendor_init wifi_data_file:dir { search setattr };
-allow vendor_init rootfs:dir { write create setattr add_name };
 

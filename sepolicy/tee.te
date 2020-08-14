@@ -1,2 +1,2 @@
-allow tee exfat:file { getattr open read };
-allow tee exfat:dir search;
+allow tee unlabeled:dir search;
+allow tee unlabeled:file { getattr open read };

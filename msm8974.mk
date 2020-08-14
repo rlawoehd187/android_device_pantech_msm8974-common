@@ -234,6 +234,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     librmnetctl
 
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
 # NFC packages
 PRODUCT_PACKAGES += \
     NfcNci \

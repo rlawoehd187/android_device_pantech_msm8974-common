@@ -1,4 +1,0 @@
-allow lmkd init:unix_stream_socket connectto;
-allow lmkd property_socket:sock_file write;
-allow lmkd system_prop:property_service set;
-
